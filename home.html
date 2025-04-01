@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IT Career Recommendations</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        select {
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        p {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+        li{
+            margin: 5px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>IT Career Recommendations</h1>
+        <form id="careerForm">
+            <label for="interests">Interests:</label><br>
+            <select id="interests" name="interests" multiple>
+                <option value="programming">Programming</option>
+                <option value="web_design">Web Design</option>
+                <option value="security">Security</option>
+                <option value="networking">Networking</option>
+                <option value="database_management">Database Management</option>
+                <option value="cloud_computing">Cloud Computing</option>
+                <option value="data_analysis">Data Analysis</option>
+                <option value="machine_learning">Machine Learning</option>
+                <option value="artificial_intelligence">Artificial Intelligence</option>
+                <option value="project_management">Project Management</option>
+                <option value="user_interface">User Interface</option>
+                <option value="system_administration">System Administration</option>
+                <option value="automation">Automation</option>
+                <option value="risk_assessment">Risk Assessment</option>
+                <option value="mobile_development">Mobile Development</option>
+                <option value="cryptography">Cryptography</option>
+                <option value="documentation">Documentation</option>
+                <option value="problem_solving">Problem Solving</option>
+                <option value="research">Research</option>
+                <option value="computers">Computers</option>
+                <option value="software">Software</option>
+                <option value="technology">Technology</option>
+                <option value="development">Development</option>
+                <option value="web_development">Web Development</option>
+                <option value="internet">Internet</option>
+                <option value="design">Design</option>
+                <option value="network_security">Network Security</option>
+                <option value="data_security">Data Security</option>
+                <option value="risk_management">Risk Management</option>
+                <option value="networks">Networks</option>
+                <option value="servers">Servers</option>
+                <option value="infrastructure">Infrastructure</option>
+                <option value="protocols">Protocols</option>
+                <option value="databases">Databases</option>
+                <option value="data">Data</option>
+                <option value="information_systems">Information Systems</option>
+                <option value="data_integrity">Data Integrity</option>
+                <option value="cloud_services">Cloud Services</option>
+                <option value="virtualization">Virtualization</option>
+                <option value="business_intelligence">Business Intelligence</option>
+                <option value="analytics">Analytics</option>
+                <option value="data_mining">Data Mining</option>
+                <option value="ai">AI</option>
+                <option value="modeling">Modeling</option>
+                <option value="robotics">Robotics</option>
+                <option value="business">Business</option>
+                <option value="coordination">Coordination</option>
+                <option value="web_design">Web Design</option>
+                <option value="usability">Usability</option>
+                <option value="operating_systems">Operating Systems</option>
+                <option value="maintenance">Maintenance</option>
+                <option value="software_deployment">Software Deployment</option>
+                <option value="cloud">Cloud</option>
+                <option value="compliance">Compliance</option>
+                <option value="mobile_devices">Mobile Devices</option>
+                <option value="applications">Applications</option>
+                <option value="mobile_platforms">Mobile Platforms</option>
+                <option value="cryptocurrency">Cryptocurrency</option>
+                <option value="decentralized_applications">Decentralized Applications</option>
+                <option value="hardware">Hardware</option>
+                <option value="technical_communication">Technical Communication</option>
+                <option value="consulting">Consulting</option>
+                <option value="solutions">Solutions</option>
+                <option value="electronics">Electronics</option>
+                <option value="circuits">Circuits</option>
+                <option value="science">Science</option>
+                <option value="innovation">Innovation</option>
+            </select><br><br>
+
+            <label for="skills">Skills:</label><br>
+            <select id="skills" name="skills" multiple>
+                <option value="programming">Programming</option>
+                <option value="problem_solving">Problem Solving</option>
+                <option value="logic">Logic</option>
+                <option value="algorithms">Algorithms</option>
+                <option value="debugging">Debugging</option>
+                <option value="web_design">Web Design</option>
+                <option value="front_end">Front-end</option>
+                <option value="back_end">Back-end</option>
+                <option value="javascript">JavaScript</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="security">Security</option>
+                <option value="networking">Networking</option>
+                <option value="analysis">Analysis</option>
+                <option value="intrusion_detection">Intrusion Detection</option>
+                <option value="forensics">Forensics</option>
+                <option value="troubleshooting">Troubleshooting</option>
+                <option value="system_administration">System Administration</option>
+                <option value="hardware">Hardware</option>
+                <option value="routing">Routing</option>
+                <option value="switching">Switching</option>
+                <option value="database_management">Database Management</option>
+                <option value="sql">SQL</option>
+                <option value="data_analysis">Data Analysis</option>
+                <option value="performance_tuning">Performance Tuning</option>
+                <option value="cloud_computing">Cloud Computing</option>
+                <option value="scripting">Scripting</option>
+                <option value="automation">Automation</option>
+                <option value="aws">AWS</option>
+                <option value="azure">Azure</option>
+                <option value="gcp">GCP</option>
+                <option value="statistics">Statistics</option>
+                <option value="visualization">Visualization</option>
+                <option value="reporting">Reporting</option>
+                <option value="machine_learning">Machine Learning</option>
+                <option value="python">Python</option>
+                <option value="r">R</option>
+                <option value="deep_learning">Deep Learning</option>
+                <option value="neural_networks">Neural Networks</option>
+                <option value="leadership">Leadership</option>
+                <option value="communication">Communication</option>
+                <option value="planning">Planning</option>
+                <option value="agile">Agile</option>
+                <option value="scrum">Scrum</option>
+                <option value="user_experience">User Experience</option>
+                <option value="design">Design</option>
+                <option value="creativity">Creativity</option>
+                <option value="wireframing">Wireframing</option>
+                <option value="prototyping">Prototyping</option>
+                <option value="linux">Linux</option>
+                <option value="windows">Windows</option>
+                <option value="ci/cd">CI/CD</option>
+                <option value="docker">Docker</option>
+                <option value="kubernetes">Kubernetes</option>
+                <option value="risk_assessment">Risk Assessment</option>
+                <option value="cryptography">Cryptography</option>
+                <option value="penetration_testing">Penetration Testing</option>
+                <option value="vulnerability_analysis">Vulnerability Analysis</option>
+                <option value="ui_design">UI Design</option>
+                <option value="android">Android</option>
+                <option value="ios">iOS</option>
+                <option value="solidity">Solidity</option>
+                <option value="web3">Web3</option>
+                <option value="technical_concepts">Technical Concepts</option>
+                <option value="technical_knowledge">Technical Knowledge</option>
+                <option value="business_analysis">Business Analysis</option>
+                <option value="embedded_systems">Embedded Systems</option>
+                <option value="data_structures">Data Structures</option>
+                <option value="theoretical_computer_science">Theoretical Computer Science</option>
+
+            </select><br><br>
+
+            <button type="submit">Get Recommendations</button>
+        </form>
+        <p></p>
+    </div>
+    <script>
+        document.getElementById('careerForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const interestsSelect = document.getElementById('interests');
+            const skillsSelect = document.getElementById('skills');
+
+            const selectedInterests = Array.from(interestsSelect.selectedOptions).map(option => option.value).join(',');
+            const selectedSkills = Array.from(skillsSelect.selectedOptions).map(option => option.value).join(',');
+
+            const url = `http://localhost:3000/career-recommendations?interests=${selectedInterests}&skills=${selectedSkills}`;
+
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    const outputParagraph = document.querySelector('p');
+                    const recommendationsList = document.createElement('ul');
+                    if (data && data.recommendations) {
+                        data.recommendations.forEach(recommendation => {
+                            const listItem = document.createElement('li');
+                            listItem.textContent = recommendation;
+                            recommendationsList.appendChild(listItem);
+                        });
+                        outputParagraph.textContent = 'Recommendations:';
+                        outputParagraph.appendChild(recommendationsList);
+                    } else {
+                        outputParagraph.textContent = 'No recommendations found.';
+                    }
+                })
+                .catch(error => {
+                    const outputParagraph = document.querySelector('p');
+                    outputParagraph.textContent = `Error: ${error}`;
+                });
+        });
+    </script>
+</body>
+</html>
