@@ -1,7 +1,7 @@
 # Path Recommender
 
 This is an IT path recommender for newbies in the field. It uses Prolog for the logic.
-![Alt text]('/image.png')
+![Alt text]('image.png')
 ## Installation
 
 1.  **Clone the repository:**
